@@ -77,6 +77,9 @@
 
 #include <Arduino.h>
 #include <SPI.h>
+#include <SoftwareSerial.h>
+
+extern SoftwareSerial debugPort;  /* Declaration of the variable */
 
 // Firmware data for self-test
 // Reference values based on firmware version; taken from 16.1.1 in spec.
